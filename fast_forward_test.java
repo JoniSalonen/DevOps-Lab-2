@@ -21,6 +21,14 @@ class fast_forward_test {
         System.out.println("Average is: " + average );
 
 
+        int largest = Math.max(Math.max(numb1, numb2), Math.max(numb3, numb4));
+        int smallest = Math.min(Math.min(numb1, numb2), Math.min(numb3, numb4));
+
+        System.out.println("Average is: " + average);
+        System.out.println("Largest number is: " + largest);
+        System.out.println("Smallest number is: " + smallest);
+
+
     }
 
     
